@@ -1,0 +1,6 @@
+$ forge create --chain goerli --rpc-url https://goerli.infura.io/v3/11a98d57302b4d569a52a42b40220a00 --private-key $PRIVATE_KEY --from 0xcFa7Eae32032bF431aEd95532142A9c2B35715D4 VestingModule
+[⠔] Compiling...
+No files changed, compilation skipped
+Deployer: 0xcfa7eae32032bf431aed95532142a9c2b35715d4
+Deployed to: 0xa8ff11823ed1a2a312f130f3166e149b863e4089
+Transaction hash: 0x1f1cd7dae54b6c0cbb908e5cbc19d2f3ddd1024cee65c8cf2a1f51ad99c4cd77

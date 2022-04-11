@@ -1,7 +1,7 @@
 import ethers from 'ethers'
 import { wallet, deployContract } from './helpers.js'
 
-import Artifact from '../out/VestingModuleFactory.sol/VestingModuleFactory.json'
+import Artifact from '../out/VestingModuleFactory.sol/VestingModuleFactory.json'  assert {type: 'json'};
 
 const main = async () => {
     const Factory = new ethers.ContractFactory(

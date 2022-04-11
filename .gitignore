@@ -1,7 +1,8 @@
 .DS_store
-
+*.zip
+*.tar.gz
 .env.local
-
+.env
 cache/
 out/
 
