@@ -41,7 +41,7 @@ size:
 
 # build using forge
 build: && _timer
-	cd {{ invocation_directory() }}; forge build --sizes --names --force
+	cd {{ invocation_directory() }}; forge build --sizes --names --force --extra-output metadata
 
 
 # [TEST] default test scripts
