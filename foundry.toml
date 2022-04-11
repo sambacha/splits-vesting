@@ -5,7 +5,10 @@ block_coinbase = '0x0000000000000000000000000000000000000000'
 block_difficulty = 0
 block_number = 0
 block_timestamp = 0
-bytecode_hash = 'none'
+# NOTE: user need to set bytecodehash='ipfs' for this otherwise verification won't work
+# https://github.com/gakonst/foundry/issues/1236 
+# https://github.com/gakonst/foundry/pull/1242/files
+bytecode_hash = 'ipfs'
 cache = true
 cache_path = 'cache'
 evm_version = 'london'
